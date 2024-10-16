@@ -1,0 +1,2 @@
+#Console.WriteLine("") is a methode used to print a certain message of your choice :
+Console.WriteLine("Hello World!");
