@@ -1,2 +1,39 @@
+Example 1:
+
 #Console.WriteLine("") is a methode used to print a certain message of your choice :
+
 Console.WriteLine("Hello World!");
+
+Example 2:
+
+string name="Sam";
+Console.WriteLine(name);
+
+#You can use this in the second example:
+
+Console.WriteLine("Hello" + name);
+
+Example 3:
+
+string name="Sam";
+Console.WriteLine($"Hello {name}");
+
+Example 4: the Length method
+
+#Length is used to count the length of a certain string you can put it this way :
+
+string name="Sam";
+string len="AB";
+Console.WriteLine($"So {name} has {len.Length} kids");
+
+Example 5: the Trim method
+
+#TrimStart(): used to ignore leading or trailing spaces that the string starts with.
+#TrimEnd(): used to ignore leading or trailing spaces that the string ends with.
+#Trim(): used to ignore leading or trailing spaces that exists withing the string.
+
+string name="  Sam  ";
+string trimmedstring1=name.TrimStart(); /* alternatively trimmedstring2=name.TrimEnd(); Or trimmedstring3=name.Trim(); */
+Console.WriteLine(trimmedstring);
+
+
